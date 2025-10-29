@@ -44,8 +44,11 @@
             
 
             <div class="col-sm-6">
-              <label for="password1" class="form-label">Contraseña</label>
-              <input type="password" class="form-control" id="password1" required>
+              <label for="password1" class="form-label" >Contraseña</label>
+              <input type="password" class="form-control" id="password1" minlength="6" required>
+              <div id="validationServerUsernameFeedback" class="invalid-feedback">
+                La contraseña debe tener al menos 6 caracteres.</div>
+            </div>
             </div>
 
             <div class="col-sm-6">
